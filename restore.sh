@@ -1,4 +1,5 @@
-cp redash_env /opt/redash/env
+mkdir /opt/redash/
+cp env /opt/redash/env
 cd data
 docker-compose up -d
 cd ..
